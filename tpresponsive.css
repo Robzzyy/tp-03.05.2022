@@ -5,32 +5,40 @@ header {
   background: linear-gradient(rgb(45, 253, 149), rgb(34, 193, 195));
   box-shadow: 3px 7px 14px grey;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   display: flex;
   height: 60px;
   width: 40px;
 }
+
 ul {
   display: flex;
   list-style-type: none;
 }
+
 a:link {
   text-decoration: none;
 }
+
 p {
   text-align: center;
 }
+
 a {
   color: white;
 }
+
 .nav2 {
   border-style: double;
 }
+
 .block1,
 .block2,
 .block3 {
@@ -44,32 +52,32 @@ a {
   color: white;
   border-radius: 20px;
 }
+
 .block1 {
   background: linear-gradient(rgb(70, 134, 195), rgb(97, 227, 194));
 }
+
 .block2 {
   background: linear-gradient(rgb(70, 134, 195), rgb(97, 227, 194));
 }
+
 .block3 {
   background: linear-gradient(rgb(226, 132, 23), rgb(92, 144, 181));
 }
+
 .img1,
 .img2,
 .img3 {
   width: 50%;
 }
+
 .img {
   margin-top: 150px;
   margin-left: 115px;
 }
-.text1,
-.text2,
-.text3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
+
+
+
 .img1 img,
 .img2 img,
 .img3 img {
@@ -77,25 +85,30 @@ a {
   height: 160px;
   border-radius: 80px;
 }
+
 .text1,
 .text2,
 .text3 {
   width: 50%;
-  padding: 20px;
+
 }
 
 .text1 {
   text-align: start;
 }
+
 .text2 {
   text-align: center;
 }
+
 .text3 {
   text-align: end;
 }
+
 .section3 .text3 h3 {
   margin-right: 200px;
 }
+
 footer {
   color: white;
   display: flex;
@@ -108,28 +121,48 @@ footer {
   box-shadow: 1px 0px 8px 0px grey;
 }
 
+img.imgArticle1 {
+  margin-top: 75px;
+  margin-left: 140px;
+}
+
+img.imgArticle2 {
+  margin-top: 75px;
+  margin-left: 140px;
+}
+
+img.imArticle3 {
+  margin-top: 75px;
+  margin-left: 140px;
+}
+
 @media only screen and (max-width: 768px) {
   nav {
     flex-direction: column;
   }
+
   li {
     margin-bottom: 5px;
   }
+
   ul {
     flex-direction: column;
     margin-top: 0px;
   }
+
   .block1,
   .block2,
   .block3 {
     flex-wrap: wrap;
     padding: 10px;
   }
+
   .text1,
   .text2,
   .text3 {
     width: 100%;
   }
+
   .text1 img,
   .text2 img,
   .text3 img {
@@ -145,12 +178,16 @@ footer {
     padding: 20px;
     margin: 20px;
   }
+
   .Paiement {
     margin-bottom: -25px;
     padding: 10px;
   }
+
   footer {
     flex-direction: column-reverse;
     align-items: center;
   }
+
+
 }
